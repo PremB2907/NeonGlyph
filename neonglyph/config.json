@@ -1,0 +1,7 @@
+{
+    "mode": "adaptive",
+    "gamma": 1.5,
+    "contrast": true,
+    "effects": ["glow", "scanlines"],
+    "charset": "cyberpunk"
+}

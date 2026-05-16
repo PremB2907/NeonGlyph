@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neonglyph"
+version = "0.3.0"
+description = "NeonGlyph: Signal Synthesis & Terminal Projection Engine for high-fidelity ASCII art and video."
+authors = [{ name = "Neo-Tokyo Graphics Team" }]
+dependencies = [
+    "numpy",
+    "opencv-python",
+    "Pillow",
+    "typer[all]",
+    "rich",
+    "colorama",
+    "numba",
+]
+
+[project.scripts]
+neonglyph = "main:app"

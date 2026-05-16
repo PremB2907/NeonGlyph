@@ -1,0 +1,7 @@
+numpy>=1.24.0
+opencv-python>=4.7.0
+Pillow>=9.5.0
+typer[all]>=0.9.0
+rich>=13.4.0
+colorama>=0.4.6
+numba>=0.57.0
